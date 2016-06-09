@@ -1,0 +1,45 @@
+
+body {
+    padding-top: 0px; 
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.sb-page-header {
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #2e6da4;
+    margin-bottom: 40px;
+    font-size: 20px;
+    padding: 30px 15px;
+	margin-left: 0px;
+	
+    margin-bottom: 100px;
+
+    background-position: center;
+}
+
+@media (min-width:768px) {
+    .sb-page-header {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        text-align: left;
+        font-size: 24px
+    }
+    .sb-page-header h1 {
+        font-size: 60px;
+        line-height: 1
+    }
+}
+
+.glyphicon {
+    color: #337ab7;
+}
+
+a {
+    color: #000;
+    text-decoration: underline;
+}
